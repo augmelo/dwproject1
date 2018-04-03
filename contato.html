@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<title>Augusto Melo</title></i>
+	<!-- ======================================== -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- ======================================== -->
+	<link rel="icon" type="image/png" href="img/a.png">
+	<link rel="stylesheet" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">	
+	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+	<!-- ======================================== -->
+</head>
+<body>
+	<div id="page">
+			<div id="header">
+				<h1>Augusto Melo | Desenvolvedor</h1>
+				<div class="headerbox"><img src="img/htmlogo.png" alt="logo html"></div>
+				<div class="headerbox"><img src="img/logocss.png" alt="logo css"></div>
+				<div class="headerbox"><img src="img/logojs.png" alt="logo js"></div>
+			</div>
+			<div id="nav">
+				<ul>
+					<li><a href="contato.html">CONTATO</a></li>
+					<li><a href="sobre.html">SOBRE</a></li>
+					<li><a href="index.html">HOME</a></li>
+				</ul>
+			</div>
+			<div id="corpo">
+				<h1>Contato</h1>
+
+				<form action="index.html" method="POST">
+					<fieldset>
+						<legend>Dados Pessoais:</legend>
+						<label class="alingright" for="txtnome"> Nome:</label> <input type="text" id="txtnome" name="nome" placeholder="Digite seu nome..."><br>
+						<label class="alingright" for="txtemail">E-mail:</label> <input type="text" id="txtemail" name="email"><br>
+					</fieldset>	
+					<fieldset>
+						<legend>Endereço:</legend>
+						<label class="alingright" for="txtrua">Logradouro:</label> <input type="text" id="txtendereco" name="endereco"><br>
+						<label class="alingright" for="slcidade">Cidade: </label> <input type="text" id="txcidade" name="cidade"><br> 
+						<label class="alingright" for="slestado">Estado: </label> 
+						<select name="estado" id="slestado">
+							<option value=" "></option>
+							<option value="SP">São Paulo</option>
+							<option value="MG">Minas Gerais</option>
+							<option value="RJ">Rio de Janeiro</option>
+						</select>
+					</fieldset>
+					Mensagem:
+					<br>
+					<textarea name="msg" placeholder="Digite aqui..."></textarea>
+					<br>
+
+						<input type="submit" value="Enviar">
+				</form>
+
+			</div>
+			<div id="footer">
+				<label style="text-align: center;">
+					© Copyright 2018 - 
+					Augusto Melo
+				</label>
+			</div>
+		</div>
+</body>
+</html>

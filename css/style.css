@@ -1,0 +1,124 @@
+body{
+	background-image: url("fundo.jpg");
+	background-size: 100%;
+	background-repeat: repeat;
+}
+
+
+#page{
+	width: 800px;
+	margin: 0 auto 0 auto;
+}
+#header{
+	width: 800px; 
+	height: 200px; 
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	color: white;
+}
+#nav{
+	width: 795px; 
+	height: 50px; 
+	margin: 10px 0 10px 0;
+	border-style: inset;
+	border-color: #364b71;
+	background-color: lightgrey; 
+	font-family: 'Montserrat-Bold', sans-serif;
+
+}
+
+#content{
+	width: 950px; 
+	height: 500px; 
+	float: right;
+}
+#footer{
+	width: 800px; 
+	height: 50px; 
+	text-align: center;
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	position: absolute;
+	bottom: 0;
+}
+
+#nav li{
+	display: inline-block;
+	padding: 0 95px;
+	font-weight: bold;
+	float: right;
+}
+
+#nav li a{
+	text-decoration: none;
+	color: #364b71;
+}
+
+#header .headerbox {
+	width: 90px;
+	float: left;
+	margin: 0 80px;
+}
+
+#header .headerbox img{
+	width: 100%;
+	object-fit: cover;
+	align-items: center;
+}
+
+#content img{
+	height: 500px;
+	object-fit: cover;
+	border-radius: 37px;
+}
+
+#corpo{
+	width: 800px; 
+	height: 500px; 
+	float: right;
+	font-family: 'Montserrat-ExtraLight', sans-serif;
+	text-shadow: #000 -1px -2px;
+	color: white;
+
+}
+
+#corpo img{
+	width: 160px;
+	height: 160px;
+	object-fit: cover;
+	border-radius: 78px;
+	float: right;
+	margin: 0 10px;
+	text-align: justify;
+}
+
+.commp{
+	width: 100%; 
+}
+.commp, .commp td, .commp th {
+	 border: 1px inset lightgrey; 
+}
+.commp td, .commp th{
+	padding: 5px 5px;
+}
+.corsim{
+	background: darkgrey;
+}
+
+
+.centralizar{
+	text-align: center;
+}
+textarea {
+	width: 60%;
+	height: 100px;
+}
+fieldset{
+	margin: 20px 0;
+	padding: 20px 10px;
+}
+label.alingright{
+	width: 100px;
+	display: inline-block;
+	text-align: right;
+}
